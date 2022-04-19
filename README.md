@@ -6,7 +6,7 @@ Water temperature is vitally important to the health of rivers and streams, infl
 
 -   **./data_download**: Download records of air temperature (PRISM), discharge (USGS NWIS), and water temperature (USGS NWIS) from 2016 to 2020 from selected sites.
 
--   **./data_raw**: Compiled raw data used as inputs for random forest models.
+-   **./data_raw**: Compile raw data used as inputs for random forest models.
 
 -   **./data_results**: Output of random forest models, including model *.rds* objects, predictions, residuals, errors, variable importance values, and correlations.
 
