@@ -1,0 +1,5 @@
+Residuals defined as Observed - Predicted
+
+Values calculated using observed and predicted values in E:\Users\Jeff\StreamTemp\RandomForest\Data_results\Predictions.
+
+Residual stats only contain sites used in training sets of the RF models.
