@@ -1,0 +1,7 @@
+Hyperparameters (mtry) was tuned for the AllSites subset using the Max and Slope Metrics
+
+Data was first subset into an 80/20 training/testing set using stratified sampling based on geographic regions.
+
+The 80% training data was then fed into a 5-fold stratified CV to tune hyperparameters based on RMSE.
+
+Done using 410

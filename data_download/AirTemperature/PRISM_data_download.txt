@@ -1,0 +1,5 @@
+Download PRISM site data in bulk using https://prism.oregonstate.edu/explorer/bulk.php
+
+Requires Locations CSV file in the format of (lat,lon,sitename)
+
+Limit of 500 sites at a time

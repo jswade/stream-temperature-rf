@@ -1,0 +1,11 @@
+PRISM Time Series Data		
+Locations: 456		
+Climate variable: tmean
+Units: degrees C	
+Spatial resolution: 4km		
+Period: 2019-10-01 - 2020-09-30		
+Dataset: AN81d		
+PRISM day definition: 24 hours ending at 1200 UTC on the day shown		
+Grid Cell Interpolation: Off		
+Time series generated: 2021-May-12		
+Details: http://www.prism.oregonstate.edu/documents/PRISM_datasets.pdf		
