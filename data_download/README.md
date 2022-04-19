@@ -1,0 +1,9 @@
+# Data Download
+
+This folder contains 3 scripts to download records of air temperature, discharge, and stream temperature. The stream temperature script should be executed first, as it filters sites to those with relatively complete records and generates the final site list used in RF models.
+
+1.  **./StreamTemperature/ST_DataDownload.R**: This script retrieves daily water temperature records from the USGS NWIS database from 10-01-2016 to 09-30-2020. It then removes sites with more than 10% of water temperature observations missing. The final site list, containing 410 watersheds with complete ST records, is exported to **sitelist_2016_2020.csv** and assigned a unique ID. The daily water temperatures for each site are exported to **ST_2016_2020.csv**.
+
+2.  **./AirTemperature/Prism_data_formatting.R**: This script formats PRISM air temperatures downloaded in bulk from <https://prism.oregonstate.edu/explorer/bulk.php> using **sites_getprism.csv** (a list of lat, lon, and site id of each of the sites). The raw files, which contain a single year of data at each site, are available in **./AirTemperature/PRISM_raw**. Daily air temperatures at each site are exported to **PRISM_tmean_2016_2020.csv**.
+
+3.  **./Discharge/Discharge_DataDownload.R**: This script extracts daily mean discharge values at each site from the USGS NWIS database and exports them to **Discharge_2016_2020.csv**. The script also summarizes records at each site into average median discharges for each month and exports them to **MedianQMonth_2016_2020.csv**. The latter csv is used as a predictor in RF models.
