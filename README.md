@@ -2,7 +2,7 @@
 
 Water temperature is vitally important to the health of rivers and streams, influencing the integrity of ecosystems, the processing of solutes, and the habitability of waterways for sensitive aquatic species. To better understand the underlying drivers of stream temperature variability, we apply a suite of random forest models to identify the most influential climate and landscape predictions of thermal regimes. We quantify the controls of monthly maximum water temperatures and thermal sensitivity (defined as the linear slope between air temperature and water temperature) across 410 watersheds in the conterminous US. All data used in this analysis is publicly available and all code used is made available within this repository.
 
-!(visualization/figures/ConceptualMethods/Conceptual%20Methods%20Figure.png "Conceptual RF Methods")
+![](visualization/figures/ConceptualMethods/Conceptual%20Methods%20Figure.png "Conceptual RF Methods")
 **Conceptual depiction of the complex nature of the controls of stream temperature regimes. Random forest predictor variables selected from the GAGES-II dataset are displayed in their respective categories. The two quantitative stream temperature signatures, monthly maximum temperature and thermal sensitivity, arise from the nested interactions of climate, watershed structure, hydrology, and human impacts.**
 
 ## Contents
